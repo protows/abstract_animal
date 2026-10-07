@@ -1,0 +1,16 @@
+//// Выделите абстрактный класс Duck,
+// который будет содержать общие свойства и методы классов FlyingDuck и RubberDuck
+package lesson_6;
+
+public abstract class Duck {
+   public abstract String getName();
+    public  void quack(){
+         System.out.println("Кря!");
+    }
+    
+    public void swim(){
+         System.out.println("Да, я умею плавать!");
+
+    }
+      
+}
