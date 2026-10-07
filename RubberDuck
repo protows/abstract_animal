@@ -1,0 +1,9 @@
+package lesson_6;
+public class RubberDuck extends Duck{
+
+    @Override   
+    public String getName() {
+        return "Я - резиновая уточка!";
+    }
+}
+  
